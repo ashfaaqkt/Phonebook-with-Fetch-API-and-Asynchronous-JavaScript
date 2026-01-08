@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonebook - Fetch API Project</title>
+    <!-- Link to our custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts for a premium look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Header with Credits -->
+        <header>
+            <h1>My Phonebook</h1>
+            <div class="credits">
+                <p>Devloped by <span class="highlight">Ashfaaq Feroz Muhammad</span></p>
+                <p class="sub-credit">Entri Assignment (10)</p>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main>
+            <!-- Form Section: Add or Update Contact -->
+            <section class="form-section card">
+                <h2>Manage Contact</h2>
+                <form id="contactForm">
+                    <input type="hidden" id="contactId">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" placeholder="Enter Phone Number" required>
+                    </div>
+                    <!-- Added helper for beginners to clear form -->
+                    <div class="button-group">
+                        <button type="submit" id="saveBtn">Save Contact</button>
+                        <button type="button" id="clearBtn" class="outline-btn">Clear</button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Search and List Section -->
+            <section class="list-section card">
+                <div class="search-bar">
+                    <h2>Contacts</h2>
+                    <input type="text" id="searchInput" placeholder="Search by name or phone...">
+                </div>
+
+                <!-- Loading indicator -->
+                <div id="loading" class="hidden">Loading contacts...</div>
+
+                <!-- Contact List Container -->
+                <div id="contactList" class="contact-grid">
+                    <!-- Contacts will be injected here by JavaScript -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Link to our JavaScript file -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
