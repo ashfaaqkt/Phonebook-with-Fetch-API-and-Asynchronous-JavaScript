@@ -6,7 +6,7 @@ A modern, responsive phonebook application built using **HTML**, **CSS**, and **
 
 This project was developed as an educational assignment for **Entri Elevate**. It demonstrates the practical application of asynchronous JavaScript, specifically the Fetch API, to handle CRUD (Create, Read, Update, Delete) operations with a backend/stub.
 
-**Assignment:** Entri Assignment (10)
+**Assignment:** Entri Assignment (9)
 
 ## Features
 
