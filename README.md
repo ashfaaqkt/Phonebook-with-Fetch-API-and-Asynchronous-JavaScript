@@ -22,7 +22,7 @@ This project was developed as an educational assignment for **Entri Elevate**. I
 
 *   **HTML5**: Structure and semantic markup.
 *   **CSS3**: Custom styling, CSS Grid/Flexbox, and animations.
-*   **JavaScript (ES6+)**: Logic, DOM manipulation, Fetch API, and Async/Await.
+*   **JavaScript**: Logic, DOM manipulation, Fetch API, and Async/Await.
 
 ## How to Run
 
